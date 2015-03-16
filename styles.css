@@ -1,2 +1,65 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+      html, body {
+        font-size: 120%
+      }
+
+      h1, h2 {
+        font-family: Trebuchet, Tahoma, Arial, sans-serif;
+      }
+
+      header {
+        border-width: 5px;
+        border-bottom-style: solid;
+        border-color: navy;
+        /* [width] [style] [color]
+          border-bottom: 5px dashed navy; */
+      }
+
+      .class-list {
+        list-style-type: square;
+      }
+
+      .item {
+        border: 1px dashed orange;
+      }
+
+      .even {
+        background-color: gray;
+      }
+
+      .odd {
+        background-color: black;
+        color: white;
+      }
+
+      #item1 {
+        font-size: 30px;
+      }
+
+      #item2 {
+        text-align: right;
+      }
+
+      #advanced-selectors > ol > li{
+        padding: 5px;
+        background-color: gray;
+      }
+
+      #advanced-selectors > ol > li:nth-child(odd) {
+        background-color: green;
+      }
+
+      [title="Bitmaker"]:hover {
+        color: orange;
+        text-decoration: none;
+      }
+
+      #advanced-selectors ul li a:hover {
+        background-color: yellow;
+      }
+
+      #advanced-selectors ul li a:active {
+        background-color: yellow;
+      }
